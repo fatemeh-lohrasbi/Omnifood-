@@ -95,6 +95,13 @@ h2:after {
     color: #e67e22;
     margin-bottom: 10px;
 }
+/*----LINKS----*/
+a:link,
+a:active{
+  text-decoration: none;
+  color: #e67e22;
+
+}
 
 
 /*----BUTTONS----*/
@@ -272,4 +279,12 @@ opacity: 0.7;
 }
 .city-feature{
   margin-bottom:5px;
+}
+.user-icon{
+  margin-left: 3px;
+}
+.city-icon{
+margin-right: 5px;
+font-size: 15px;
+  color: #3C636B;
 }
