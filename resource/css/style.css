@@ -1,8 +1,6 @@
 /*
 orange color: #e67e22
-
 */
-
 /*-------------------------------*/
 /*BASIC SETUP*/
 /*-------------------------------*/
@@ -26,11 +24,9 @@ html{
     height: 0;
     visibility: hidden;
 }
-
 /*-------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*-------------------------------*/
-
 .row{
     width: 1140px;
     margin: 0 auto;
@@ -47,14 +43,12 @@ h1, h2, h3{
     word-spacing: 3px;
     text-transform: uppercase;
 }
-
 h1{
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
     font-size: 200%;
     letter-spacing: 1px;
-
 }
 h2{
     font-size: 180%;
@@ -62,7 +56,6 @@ h2{
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
-
 }
 h3{
     font-size: 110%;
@@ -90,7 +83,7 @@ h2:after {
 }
 /*----ICONS----*/
 .icon-big{
-    font-size: 330%;
+    font-size: 300%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
@@ -100,10 +93,7 @@ a:link,
 a:active{
   text-decoration: none;
   color: #e67e22;
-
 }
-
-
 /*----BUTTONS----*/
 .btn:link,
 .btn:visited,
@@ -144,12 +134,9 @@ transition: all 0.2s;
     border: 1px solid #cf6d17 ;
     color: #fff;
 }
-
-
 /*-------------------------------*/
 /*HEADER*/
 /*-------------------------------*/
-
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
@@ -186,16 +173,12 @@ header{
     font-size: 90%; /* 18px----> 18/20=0.9*/
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
-
     transition: border-bottom 0.3s;
-
 }
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
-
 }
-
 /*-------------------------------*/
 /*MEALS*/
 /*-------------------------------*/
@@ -228,7 +211,6 @@ opacity: 0.7;
   transform: scale(1.03);
   opacity: 1;
 }
-
 /*-------------------------------*/
 /*HOW IT WORKS*/
 /*-------------------------------*/
@@ -239,12 +221,10 @@ opacity: 0.7;
     text-align: right;
     padding-right: 3%;
     margin-top: 30px;
-
 }
 .steps-box:last-child{
     padding-left: 3%;
     margin-top: 70px;
-
 }
 .app-screen{
     width: 40%;
@@ -273,7 +253,6 @@ opacity: 0.7;
     width:auto;
     margin-right: 10px;
 }
-
 /*-------------------------------*/
 /*CITIES*/
 /*-------------------------------*/
@@ -293,7 +272,6 @@ margin-right: 5px;
 font-size: 15px;
   color: #3C636B;
 }
-
 /*-------------------------------*/
 /*TESTIMONIALS*/
 /*-------------------------------*/
@@ -329,7 +307,6 @@ cite img{
     margin-right: 10px;
     vertical-align: middle;
 }
-
 /*-------------------------------*/
 /*SIGN UP*/
 /*-------------------------------*/
@@ -359,7 +336,7 @@ cite img{
 .plan-price{
     font-size:300%;
     margin-bottom:10px;
-    font-weight: 200;
+    font-weight: 300;
     color:#e67e22;
 }
 .plan-price span{
@@ -380,16 +357,13 @@ cite img{
     font-size: 15px;
     margin-right: 15px;
 }
-
 /*-------------------------------*/
 /*FORM*/
 /*-------------------------------*/
-
  .contact-form{
     width: 60%;
     margin: 0 auto;
 }
-
 input[type=text],
 input[type=email],
 select,
@@ -398,7 +372,6 @@ textarea{
     padding: 7px;
     border-radius: 5px;
     border: 1px solid #ccc;
-
 }
 textarea{
     resize: none;
@@ -411,4 +384,70 @@ input[type=checkbox]{
 }
 *:focus{
     outline: none;
+}
+/*-------------------------------*/
+/*FOOTER*/
+/*-------------------------------*/
+footer{
+    background-color:#333;
+    padding: 40px 50px 20px 50px;
+}
+.footer-nav{
+    list-style:none;
+    float: left;
+    font-size: 90%;
+}
+.social-links{
+    list-style: none;
+    float: right;
+}
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.social-links li:last-child,
+.social-links li:last-child{
+    margin: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: rgb(192, 192, 192);
+    transition:color 0.4s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+color: #fff;
+}
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 120%;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-instagram-square{
+    transition: color 0.4s;
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+.fa-google-plus-g:hover{
+    color: #dd4b39;
+}
+.fa-instagram-square:hover{
+    color: #c13584;
+}
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 80%;
 }
