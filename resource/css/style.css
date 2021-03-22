@@ -190,6 +190,19 @@ header{
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
 }
+/*--mobile nav--*/
+.mobile-nav-icon{
+float: right;
+margin-top: 30px;
+margin-left: 0;
+display: none;
+}
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: #fff;
+    margin-left: 0;    
+
+}
 /*--sticky nav--*/
 .sticky{
     position: fixed;
@@ -207,13 +220,16 @@ header{
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
     padding:18px 0;
-    color: #555;    
+    color: #555;
 }
 .sticky .white-logo{
     display:none;
 }
 .sticky .black-logo{
     display:block;
+}
+.fa-times{
+    margin-left: 0;
 }
 /*-------------------------------*/
 /*MEALS*/
